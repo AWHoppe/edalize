@@ -1,0 +1,14 @@
+NAME := {{ name }}
+APP  := {{ app }}
+JG_OPTS := {% for option in jasper_options %} {{ option }} {% endfor %}
+
+all: run
+
+run-gui:
+	jg -$(APP) -proj jasper.prj $(JG_OPTS) run-jasper-$(APP).tcl
+
+run:
+	jg -no_gui -$(APP) -proj jasper.prj $(JG_OPTS) run-jasper-$(APP).tcl
+
+clean:
+	$(RM) -rf jasper.prj
