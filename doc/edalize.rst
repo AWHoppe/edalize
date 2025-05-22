@@ -164,6 +164,14 @@ edalize.xsim module
     :undoc-members:
     :show-inheritance:
 
+edalize.jasper module
+---------------------
+
+.. automodule:: edalize.jasper
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 edalize.reporting module
 ------------------------
 

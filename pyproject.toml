@@ -26,11 +26,11 @@ dependencies = ["Jinja2>=3"]
 requires-python = ">=3.6, <4"
 
 [project.urls]
-Homepage = "https://github.com/olofk/edalize"
+Homepage = "https://github.com/AWHoppe/edalize"
 Documentation = "https://edalize.readthedocs.io"
-Repository = "https://github.com/olofk/edalize"
-Issues = "https://github.com/olofk/edalize/issues"
-Changelog = "https://github.com/olofk/edalize/blob/main/NEWS"
+Repository = "https://github.com/AWHoppe/edalize"
+Issues = "https://github.com/AWHoppe/edalize/issues"
+Changelog = "https://github.com/AWHoppe/edalize/blob/main/NEWS"
 
 [tool.setuptools]
 script-files = ["scripts/el_docker"]
