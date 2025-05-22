@@ -12,7 +12,7 @@ def read(fname):
 
 setup(
     name="edalize",
-    version="0.4.0",
+    version="0.4.0.dev0",
     packages=["edalize", "edalize.tools", "edalize.flows"],
     package_data={
         "edalize": [
@@ -39,6 +39,8 @@ setup(
             "templates/ghdl/Makefile.j2",
             "templates/openlane/openlane-makefile.j2",
             "templates/openlane/openlane-script-tcl.j2",
+            "templates/jasper/Makefile.j2",
+            "templates/jasper/run-jasper-app.tcl.j2",
         ],
         "edalize.tools": [
             "templates/yosys/edalize_yosys_procs.tcl.j2",
